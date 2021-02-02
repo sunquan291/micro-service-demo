@@ -1,0 +1,11 @@
+server:
+  port: 8081
+aop-plugin:
+  plugins:
+    - id: 1
+      cls: com.zte.sdn.plugin.aop.InvokeCostAdvice
+      path: ab
+    - id: 2
+      cls: com.zte.sdn.plugin.aop.InvokeCostAdvice
+      path: ab
+    - {id: 3,cls: com.zte.sdn.plugin.aop.InvokeCostAdvice,path: abc}
