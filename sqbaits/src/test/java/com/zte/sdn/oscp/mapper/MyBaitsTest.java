@@ -1,3 +1,5 @@
+package com.zte.sdn.oscp.mapper;
+
 import com.zte.sdn.oscp.domain.Blog;
 import com.zte.sdn.oscp.mapper.BlogMapper;
 import com.zte.sdn.oscp.mapper.SQConfiguration;
